@@ -34,16 +34,15 @@
     padding: 3% 0%;
     font-size: 16px;
     margin-bottom: 3%;
-    
 }
 
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 #login-form input:focus {
@@ -61,7 +60,7 @@
     text-align: center;
     text-decoration: none;
     color: black;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     margin-top: 2.5%;
     padding: 3% 0%;
     border-radius: 3%;
@@ -70,3 +69,9 @@
 #login-form #login-form__a1 {
     margin-top: 0%;
 }
+
+/* Bug
+#login-form a:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+*/
