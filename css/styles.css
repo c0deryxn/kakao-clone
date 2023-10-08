@@ -1,7 +1,18 @@
-@import "reset.css";
-@import "status-bar.css";
 @import "fonts.css";
+@import "reset.css";
 @import "var.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+    color: var(--kakao-black);
+}
 
 .welcome-header {
     margin-top: 15%;
