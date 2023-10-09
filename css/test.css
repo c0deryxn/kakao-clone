@@ -1,0 +1,59 @@
+@import "fonts.css";
+@import "reset.css";
+@import "var.css";
+
+body {
+    height: 100vh;
+    background-color: #F7CF46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
+
+.login-area__id {
+    padding: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.login-area__pw {
+    padding: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-area__submit {
+    width: 160px;
+    height: 100px;
+}
+
+.login-area__userid {
+    position: absolute;
+    right: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--kakao-black);
+    padding: 5px;
+}
+
+.login-area__userpw {
+    position: absolute;
+    right: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--kakao-black);
+}
